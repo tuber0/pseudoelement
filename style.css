@@ -1,0 +1,84 @@
+body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50px;
+    background-image: url('th.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .intro-paragraph1 {
+    font-family: courier;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-left: 20px;
+   
+  }
+  .intro-paragraph2 {
+    font-family: courier;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+   
+  }
+    .intro-paragraph{
+        font-family: courier;
+        text-shadow: 2px 2px 2px black;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        padding-left: 20px;
+       
+  
+  }
+  .main-header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px white;
+    font-family: arial;
+    font-size: 50px;
+    margin-bottom: -35px;
+    font-weight: bold;
+    padding-bottom: 50px;
+  }
+  button {
+    width: auto;
+    display: block;
+    margin: auto;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    width: 35%;
+    background-color: lightblue;
+    border-radius: 50px;
+    transition: .5s;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+  }
+  button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: .5s;
+  }
+  header::before, header::after {
+    content: '★';
+  }
+  p::after {
+    content: '”';
+  }
+  p::before {
+    content: '“';
+  }
+  button::before {
+    content: '👉🏻';
+  }
+  button::after {
+    content: '👈🏻';
+  }
